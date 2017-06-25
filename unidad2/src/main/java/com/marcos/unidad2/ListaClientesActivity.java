@@ -29,6 +29,7 @@ public class ListaClientesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_list_cliente);
         setTitle("Lista Clientes");
 
         accionesDB = new AccionesDB(getApplicationContext());

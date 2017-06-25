@@ -37,8 +37,8 @@ public class EditarClienteActivity extends AppCompatActivity {
         edtNombre1 = (EditText)findViewById(R.id.edtNombre1);
         edtNombre1.setText(bundle.getString("nombre"));
         edtApellido1 = (EditText)findViewById(R.id.edtApellido1);
-        edtApellido1.setText(bundle.getString("nombre"));
-        edtTelefono1 = (EditText)findViewById(R.id.edtEmail1);
+        edtApellido1.setText(bundle.getString("apellido"));
+        edtTelefono1 = (EditText)findViewById(R.id.edtTelefono1);
         edtTelefono1.setText(bundle.getString("telefono"));
         edtEmail1 = (EditText)findViewById(R.id.edtEmail1);
         edtEmail1.setText(bundle.getString("email"));
