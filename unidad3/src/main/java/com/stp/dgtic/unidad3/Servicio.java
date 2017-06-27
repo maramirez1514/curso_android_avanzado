@@ -2,6 +2,7 @@ package com.stp.dgtic.unidad3;
 
 import android.app.Service;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 
@@ -33,6 +34,13 @@ public class Servicio extends Service{
     public void onCreate() {
         super.onCreate();
         realizarConexion();
+        new AsyncTask<Void, Void, Void>() {
+            @Override
+            protected Void doInBackground(Void... params) {
+                realizarConexion();
+                return null;
+            }
+        }.execute();
     }
 
     private void realizarConexion(){
