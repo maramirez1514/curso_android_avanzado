@@ -33,7 +33,6 @@ public class Servicio extends Service{
     @Override
     public void onCreate() {
         super.onCreate();
-        realizarConexion();
         new AsyncTask<Void, Void, Void>() {
             @Override
             protected Void doInBackground(Void... params) {
