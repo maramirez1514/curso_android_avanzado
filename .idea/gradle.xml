@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/hilos" />
             <option value="$PROJECT_DIR$/unidad2" />
             <option value="$PROJECT_DIR$/unidad3" />
+            <option value="$PROJECT_DIR$/unidad3_boot_completed" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
