@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
-
 import com.marcos.unidad2.Modelo.Cliente;
 import java.util.ArrayList;
 
