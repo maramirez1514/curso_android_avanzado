@@ -5,11 +5,8 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
-
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -46,6 +43,10 @@ public class DetallePostActivity extends AppCompatActivity {
     private void parsearResult(String json){
         try {
             JSONObject jsonObject = new JSONObject(json);
+            txt_user_id.setText("userId :" + jsonObject.getString("userId"));
+            txt_id.setText("id :" + jsonObject.getInt("id"));
+            txt_title.setText("title :" + jsonObject.getString("title"));
+            txt_body.setText("body :" + jsonObject.getString("body"));
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -71,7 +72,7 @@ public class DetallePostActivity extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(String s) {
-
+            parsearResult(s);
         }
 
         private String parseResponse(InputStream in){

@@ -1,5 +1,6 @@
 package com.marcos.unidad4;
 
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -51,7 +52,13 @@ public class ListaPostsActivity extends AppCompatActivity {
         lst_post.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
+                try {
+                    Intent intent = new Intent(getApplicationContext(),DetallePostActivity.class);
+                    intent.putExtra("idpost",jsonArray.getJSONObject(position).getInt("id"));
+                    startActivity(intent);
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
             }
         });
     }

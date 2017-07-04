@@ -4,11 +4,18 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/androidavanzado.iml" filepath="$PROJECT_DIR$/androidavanzado.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/curso_android_avanzado.iml" filepath="$PROJECT_DIR$/curso_android_avanzado.iml" />
       <module fileurl="file://$PROJECT_DIR$/curso_android_avanzado.iml" filepath="$PROJECT_DIR$/curso_android_avanzado.iml" />
       <module fileurl="file://$PROJECT_DIR$/hilos/hilos.iml" filepath="$PROJECT_DIR$/hilos/hilos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hilos/hilos.iml" filepath="$PROJECT_DIR$/hilos/hilos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unidad2/unidad2.iml" filepath="$PROJECT_DIR$/unidad2/unidad2.iml" />
       <module fileurl="file://$PROJECT_DIR$/unidad2/unidad2.iml" filepath="$PROJECT_DIR$/unidad2/unidad2.iml" />
       <module fileurl="file://$PROJECT_DIR$/unidad3/unidad3.iml" filepath="$PROJECT_DIR$/unidad3/unidad3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unidad3/unidad3.iml" filepath="$PROJECT_DIR$/unidad3/unidad3.iml" />
       <module fileurl="file://$PROJECT_DIR$/unidad3_boot_completed/unidad3_boot_completed.iml" filepath="$PROJECT_DIR$/unidad3_boot_completed/unidad3_boot_completed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unidad3_boot_completed/unidad3_boot_completed.iml" filepath="$PROJECT_DIR$/unidad3_boot_completed/unidad3_boot_completed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unidad4/unidad4.iml" filepath="$PROJECT_DIR$/unidad4/unidad4.iml" />
       <module fileurl="file://$PROJECT_DIR$/unidad4/unidad4.iml" filepath="$PROJECT_DIR$/unidad4/unidad4.iml" />
     </modules>
   </component>
