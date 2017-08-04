@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/examen_integrador" />
             <option value="$PROJECT_DIR$/hilos" />
             <option value="$PROJECT_DIR$/unidad2" />
             <option value="$PROJECT_DIR$/unidad3" />

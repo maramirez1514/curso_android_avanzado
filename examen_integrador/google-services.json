@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "791465116523",
+    "firebase_url": "https://examenintegrador-a9712.firebaseio.com",
+    "project_id": "examenintegrador-a9712",
+    "storage_bucket": "examenintegrador-a9712.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791465116523:android:e10b28415733af0c",
+        "android_client_info": {
+          "package_name": "com.marcos.examen_integrador"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791465116523-713gba90ft9ng5dpbh4gh65bkqnqdhvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWAt-pacS_QJXW9qchRU-Al0l5NzWV390"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

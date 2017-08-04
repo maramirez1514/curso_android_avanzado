@@ -1,1 +1,1 @@
-include ':app', ':hilos', ':unidad2', ':unidad3', ':unidad3_boot_completed', ':unidad4', ':unidad4_fotos', ':unidad5', ':unidad6', ':unidad6_wear'
+include ':app', ':hilos', ':unidad2', ':unidad3', ':unidad3_boot_completed', ':unidad4', ':unidad4_fotos', ':unidad5', ':unidad6', ':unidad6_wear', ':examen_integrador'
